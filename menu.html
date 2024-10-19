@@ -5,7 +5,10 @@
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
+    <!-- Mobile Metas -->
+    <script>document.addEventListener('contextmenu', function(event) {event.preventDefault();});</script>
+   <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
+   <!-- Include the anti-inspect-element script -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
   <meta name="keywords" content="" />
@@ -153,11 +156,15 @@
 
       <ul class="filters_menu">
         <li class="active" data-filter="*">All</li>
+        <li data-filter=".sandwich">Sandwich</li>
+        <li data-filter=".cheeseball">Cheeseball</li>
+        <li data-filter=".tuhogtuhog">Tuhogtuhog</li>
+        <li data-filter=".palamig">Palamig</li>
       </ul>
 
       <div class="filters-content">
         <div class="row grid">
-          <div class="col-sm-6 col-lg-4 all pizza">
+          <div class="col-sm-6 col-lg-4 all cheeseball">
             <div class="box">
               <div>
                 <div class="img-box">
@@ -233,7 +240,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all burger">
+          <div class="col-sm-6 col-lg-4 all sandwich">
             <div class="box">
               <div>
                 <div class="img-box">
@@ -309,7 +316,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
+          <div class="col-sm-6 col-lg-4 all tuhogtuhog">
             <div class="box">
               <div>
                 <div class="img-box">
@@ -324,7 +331,7 @@
                   </p>
                   <div class="options">
                     <h6>
-              ₱5/8PCS
+                      ₱5/8PCS
                     </h6>
                     <a href="">
                       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
@@ -385,7 +392,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
+          <div class="col-sm-6 col-lg-4 all tuhogtuhog">
             <div class="box">
               <div>
                 <div class="img-box">
@@ -461,7 +468,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all fries">
+          <div class="col-sm-6 col-lg-4 all tuhogtuhog">
             <div class="box">
               <div>
                 <div class="img-box">
@@ -537,7 +544,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
+          <div class="col-sm-6 col-lg-4 all tuhogtuhog">
             <div class="box">
               <div>
                 <div class="img-box">
@@ -613,7 +620,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all burger">
+          <div class="col-sm-6 col-lg-4 all palamig">
             <div class="box">
               <div>
                 <div class="img-box">
@@ -689,9 +696,6 @@
               </div>
             </div>
           </div>
-          
-          
-      </div>
       <div class="btn-box">
         <a href="">
           View More
@@ -740,16 +744,12 @@
            -   Street Foods
             </a>
             <p>
-              specializes in delicious, affordable street food that satisfies every craving. Try our specialty chicken balls, mouth-watering sandwiches, and crunchy fish balls. Enjoy kikiam, tasty tofu, and cooling palamig. Also try our very delicious cheese balls and mochi. Enjoy the best street food ever!
+              Specializes in delicious, affordable street food that satisfies every craving. Try our specialty chicken balls, mouth-watering sandwiches, and crunchy fish balls. Enjoy kikiam, tasty tofu, and cooling palamig. Also try our very delicious cheese balls and mochi. Enjoy the best street food ever!
             </p>
             <div class="footer_social">
               <a href="https://facebook.com/chanzkiepogi">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
-                
-              </a>
-            </div>
-          </div>
         </div>
         <div class="col-md-4 footer-col">
           <h4>
@@ -759,11 +759,20 @@
             Everyday
           </p>
           <p>
-            10.00 AM - 5:00 PM
+            9:00 Am - 5.00 Pm
           </p>
         </div>
       </div>
-      
+      <div class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://facebook.com/chanzkiepogi">Christian Angel M. Geronimo</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
